@@ -1,0 +1,223 @@
+/**
+ * yp add
+ */
+.flexFill {
+  display: flex;
+  flex: 1;
+}
+
+.fill {
+  width: 100%;
+  height: 100%;
+}
+
+.viewPortFill {
+  width: 100vw;
+  height: 100vh;
+}
+
+.rowCenterStart {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.rowCenterCenter {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.rowCenterBaseline {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.rowCenterEnd {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.rowStartCenter {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.rowEndStart {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.rowEndCenter {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.rowBetweenStart {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.rowBetweenCenter {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.rowEvenlyCenter {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.rowBetweenBaseline {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.rowEndBaseline {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: baseline;
+}
+
+.rowBetweenEnd {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.rowStartStart {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.rowStartEnd {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+.rowStartBaseline {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: baseline;
+}
+
+.columnCenterCenter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.columnCenterEnd {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.columnBetweenStart {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.columnBetweenCenter {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.columnStartCenter {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.columnStartEnd {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+.columnEndCenter {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.columnCenterStart {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.columnStartStart {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.wholeWidth {
+  width: 100%;
+}
+
+.wholeHeight {
+  height: 100%;
+}
+
+.wholeViewPortWidth {
+  width: 100vw;
+}
+
+.wholeViewPortHeight {
+  height: 100vh;
+}
+
+.mask {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 10;
+  background-color: rgba(0, 0, 0, 0.5);
+}
