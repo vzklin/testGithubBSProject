@@ -24,12 +24,12 @@ export default defineConfig({
     port: 2234,
     open: true
   },
-  css: {
-    /* CSS 预处理器 */
-    preprocessorOptions: {
-      scss: {
-        additionalData: '@import "src/a_common/ljxscss.scss";'
-      }
-    }
-  },
+  // css: {
+  //   /* CSS 预处理器 */
+  //   preprocessorOptions: {
+  //     scss: {
+  //       additionalData: '@import "src/a_common/ljxscss.scss";'
+  //     }
+  //   }
+  // },
 })
