@@ -1,6 +1,6 @@
 {
   "name": "testprojectoncloudflare",             
-  "main": "src/index.js",             
+  "main": "dist/worker.js",             
   "compatibility_date": "2025-08-21", 
   "assets": {
     "directory": "./dist"             
