@@ -1,8 +1,7 @@
 {
-  "name": "testprojectoncloudflare",             
-  "main": "src/index.js",             
-  "compatibility_date": "2025-08-21", 
-  "assets": {
-    "directory": "./dist"             
+  "name": "testprojectoncloudflare",
+  "compatibility_date": "2025-08-21",
+  "site": {
+    "bucket": "./dist"
   }
 }
