@@ -1,7 +1,5 @@
 {
-  "name": "testprojectoncloudflare",
-  "compatibility_date": "2025-08-21",
-  "site": {
-    "bucket": "./dist"
-  }
+  "name": "testprojectoncloudflare",           // Pages 项目名
+  "pages_build_output_dir": "./dist",          // 静态文件目录
+  "compatibility_date": "2025-08-21"
 }
